@@ -9,11 +9,11 @@ tags:
   - "Ghidra"
   - "Malware Analysis"
   - "AI"
-description: "A Ghidra extension that sends decompiled functions to an AI model for explanation."
+description: "A Ghidra extension that sends decompiled function code to an AI assistant for faster explanation and reverse-engineering analysis."
 ---
 
-Function2Prompt is a Ghidra extension that extracts decompiled function code and metadata for reverse engineering. The API endpoint, model ID and API key are configurable, so it works with any OpenAI-compatible provider.
+Function2Prompt is a Ghidra extension that extracts decompiled function code and metadata for reverse engineering. The API endpoint, model ID, and API key are configurable so it works with any OpenAI-compatible model endpoint.
 
-It speeds up reverse engineering, malware analysis and N-day vulnerability research by combining Ghidra with AI assistance.
+It helps speed up reverse engineering, malware analysis, and vulnerability research by combining Ghidra's decompiler output with AI-assisted analysis in the same workflow.
 
 **Code:** [github.com/anirudhataliyan/Function2Prompt](https://github.com/anirudhataliyan/Function2Prompt)
