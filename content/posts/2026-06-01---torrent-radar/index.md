@@ -8,9 +8,11 @@ category: "Web"
 tags:
   - "Web Development"
   - "Networking"
-description: "A web tool that visualizes the peers behind a torrent link and where its traffic comes from."
+description: "A web app that visualizes the peers behind a torrent link and helps show where the traffic is coming from."
 ---
 
-Torrent Radar is a web-based tool that visualizes the peer connections associated with a torrent link and analyzes where the traffic comes from. It has an interactive interface for exploring the connection data.
+Torrent Radar is a web-based tool that visualizes the peer connections associated with a torrent link and helps show where the traffic is coming from. It provides an interactive map and inspection flow for exploring peer distribution and connection patterns.
+
+This makes it easier to understand how a torrent is spread across peers and where the traffic is geographically and structurally originating from.
 
 **Live:** [torrentradar.vercel.app](https://torrentradar.vercel.app)
