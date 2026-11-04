@@ -1,0 +1,47 @@
+{
+  "title": "Anirudha Kumar",
+  "url": "https://example.vercel.app",
+  "description": "Cybersecurity student building tools for Active Directory, reverse engineering and web security.",
+  "lang": "en",
+  "logo": "logo.png",
+  "copyright": "\u00a9 Anirudha Kumar",
+  "googleAnalyticsId": "",
+  "pathPrefix": "/",
+  "feedLimit": 10,
+  "menu": [
+    {
+      "title": "Projects",
+      "url": "/"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog"
+    },
+    {
+      "title": "About me",
+      "url": "/pages/about"
+    },
+    {
+      "title": "Contact me",
+      "url": "/pages/contacts"
+    }
+  ],
+  "author": {
+    "title": "Anirudha Kumar",
+    "description": "Cybersecurity student building tools for Active Directory, reverse engineering and web security.",
+    "contacts": [
+      {
+        "name": "github",
+        "contact": "anirudhataliyan"
+      },
+      {
+        "name": "linkedin",
+        "contact": "anirudhatalian"
+      },
+      {
+        "name": "medium",
+        "contact": "@anirudhataliyan"
+      }
+    ]
+  }
+}

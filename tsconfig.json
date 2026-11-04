@@ -1,0 +1,61 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "types": [
+      "bun"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "verbatimModuleSyntax": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "target",
+    "paths": {
+      "@/assets/*": [
+        "./src/assets/*"
+      ],
+      "@/constants/*": [
+        "./src/constants/*"
+      ],
+      "@/content/*": [
+        "./content/*"
+      ],
+      "@/internal/*": [
+        "./internal/*"
+      ],
+      "@/islands/*": [
+        "./src/islands/*"
+      ],
+      "@/mocks": [
+        "./internal/testing/mocks"
+      ],
+      "@/utils/*": [
+        "./src/utils/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "target"
+  ],
+  "include": [
+    ".astro/types.d.ts",
+    "**/*"
+  ]
+}

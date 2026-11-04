@@ -1,0 +1,22 @@
+name: Sync Medium
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-medium.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "medium-sync"
+          git config user.email "medium-sync@users.noreply.github.com"
+          git add content/medium.json
+          git diff --cached --quiet || (git commit -m "chore: sync medium posts" && git push)
