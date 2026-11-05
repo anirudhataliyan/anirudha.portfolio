@@ -1,1 +1,47 @@
-{"updated":null,"items":[]}
+{
+  "updated": "2026-11-05T10:35:15.289Z",
+  "items": [
+    {
+      "title": "Flare-On 12: Drill Baby Drill",
+      "link": "https://medium.com/@anirudhataliyan/flare-on-12-drill-baby-drill-ac402b9ff29a",
+      "date": "2025-10-12T15:00:41.000Z",
+      "description": "In 3 Easy Steps (spoilers ahead). Flare-on just recently dropped their new challenge on Sept 26 (I guess) on https://flare-on12.ctfd.io/ and I solved my first…"
+    },
+    {
+      "title": "The Rise of the Mirai Botnet: A Tale of Cyber Chaos",
+      "link": "https://medium.com/@anirudhataliyan/the-rise-of-the-mirai-botnet-a-tale-of-cyber-chaos-bc5beec3190c",
+      "date": "2024-08-10T10:48:43.000Z",
+      "description": "It began in 2016, a year like any other. The internet was buzzing with activity, connecting billions of devices across the globe. But amidst the ordinary hum…"
+    },
+    {
+      "title": "OWASP Top 10 — Tryhackme (Writeup)",
+      "link": "https://medium.com/@anirudhataliyan/owasp-top-10-tryhackme-writeup-20f3fabb2418",
+      "date": "2024-08-10T10:15:30.000Z",
+      "description": "OWASP Top 10 — Tryhackme (Writeup) I’m sure you are familiar with the concept of OWASP top 10 by now but for the sake of clarity, I’ll put the definition given…"
+    },
+    {
+      "title": "Getting started with Reverse Engineering with no prior experience",
+      "link": "https://medium.com/@anirudhataliyan/getting-started-with-reverse-engineering-with-no-prior-experience-aa265916cfa3",
+      "date": "2023-09-26T10:09:01.000Z",
+      "description": "I’d start off this post with a small story about a massive ransomware attack that caused worldwide mayhem in May 2017. Heres how the story goes, Imagine you’re…"
+    },
+    {
+      "title": "Why is today’s Education System so trash and flawed?",
+      "link": "https://medium.com/@anirudhataliyan/why-modern-education-system-is-kinda-trash-8384703335a3",
+      "date": "2021-08-22T14:20:20.000Z",
+      "description": "If you’re reading this, you probably already realized that the schooling system is kinda trash and not applicable in today’s age, So in this article, I’m gonna…"
+    },
+    {
+      "title": "What is Diffie — Hellman key exchange algorithm? and How it works? — in easy words",
+      "link": "https://medium.com/@anirudhataliyan/what-is-diffie-hellman-key-exchange-algorithm-and-how-it-works-in-easy-words-6a8503c97d95",
+      "date": "2021-07-23T16:45:22.000Z",
+      "description": "What is Diffie — Hellman key exchange algorithm? and How it works? — in easy words Diffie-Hellman Key Exchange Algorithm or Key agreement algorithm is used to…"
+    },
+    {
+      "title": "What skills do you need to get started in CTF and/or cybersecurity? — A Beginner’s POV",
+      "link": "https://medium.com/@anirudhataliyan/what-skills-do-you-need-to-get-started-in-ctf-and-or-cybersecurity-a-beginners-pov-f7d04002fd4b",
+      "date": "2021-07-21T18:22:58.000Z",
+      "description": "What skills do you need to get started in CTF and/or cybersecurity? — A Beginner’s POV Playing and solving CTF challenges might be the best way to get started…"
+    }
+  ]
+}
